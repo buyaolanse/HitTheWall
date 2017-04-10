@@ -62,6 +62,7 @@ while True:
 
         if event.type == KEYDOWN:
             if event.key == K_LEFT:
+                #when press LEFT or RIGHT ,pig change to origin picture.
                 pig = l_head
                 pig_peng = l_head_peng 
 
